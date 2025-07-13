@@ -1,0 +1,45 @@
+# === General ===
+*.log
+*.env
+.env.*
+*.DS_Store
+__pycache__/
+*.py[cod]
+*.swp
+*.swo
+node_modules/
+dist/
+build/
+
+# === Python / Django ===
+*.sqlite3
+/media/
+backend/db.sqlite3
+*.pyc
+*.pyo
+venv/
+.env
+staticfiles/
+**/migrations/
+*.pot
+*.mo
+backend/.next/
+
+# === React / Next.js ===
+frontend/.next/
+frontend/out/
+frontend/node_modules/
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+frontend/build/
+
+# === VSCode & IDE ===
+.vscode/
+.idea/
+
+# === OS Files ===
+Thumbs.db
+ehthumbs.db
+.DS_Store

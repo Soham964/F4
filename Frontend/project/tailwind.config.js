@@ -1,0 +1,67 @@
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: [
+    './src/pages/**/*.{js,jsx}',
+    './src/components/**/*.{js,jsx}',
+    './src/app/**/*.{js,jsx}',
+  ],
+  theme: {
+    extend: {
+      colors: {
+        primary: {
+          50: '#f0fdf4',
+          100: '#dcfce7',
+          200: '#bbf7d0',
+          300: '#86efac',
+          400: '#4ade80',
+          500: '#22c55e',
+          600: '#16a34a',
+          700: '#15803d',
+          800: '#166534',
+          900: '#14532d',
+        },
+        secondary: {
+          50: '#fefce8',
+          100: '#fef9c3',
+          200: '#fef08a',
+          300: '#fde047',
+          400: '#facc15',
+          500: '#eab308',
+          600: '#ca8a04',
+          700: '#a16207',
+          800: '#854d0e',
+          900: '#713f12',
+        },
+        accent: {
+          50: '#fdfcf0',
+          100: '#faf7e0',
+          200: '#f5efc4',
+          300: '#ede39c',
+          400: '#e3d372',
+          500: '#d4c252',
+          600: '#b8a144',
+          700: '#947c38',
+          800: '#7a6533',
+          900: '#69562e',
+        },
+        earth: {
+          50: '#f9f7f4',
+          100: '#f0ebe4',
+          200: '#e0d4c7',
+          300: '#ccb8a3',
+          400: '#b8997c',
+          500: '#a87f5f',
+          600: '#9b6f53',
+          700: '#815a46',
+          800: '#694a3d',
+          900: '#553d33',
+        },
+      },
+      fontFamily: {
+        sans: ['Inter', 'sans-serif'],
+        serif: ['Merriweather', 'serif'],
+      },
+    },
+  },
+  plugins: [require('tailwindcss-animate')],
+};
