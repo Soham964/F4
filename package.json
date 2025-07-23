@@ -1,0 +1,16 @@
+{
+  "name": "villagestay",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "cd Frontend && npm run dev",
+    "build": "cd Frontend && npm run build",
+    "start": "cd Frontend && npm start",
+    "backend": "cd Backend/backend && python manage.py runserver",
+    "install-frontend": "cd Frontend && npm install",
+    "install-backend": "cd Backend && pip install -r requirements.txt"
+  },
+  "workspaces": [
+    "Frontend"
+  ]
+}
